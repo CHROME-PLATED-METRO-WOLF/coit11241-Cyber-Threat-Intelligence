@@ -1,0 +1,22 @@
+# Nmap 7.94 scan initiated Fri Sep  8 19:34:48 2023 as: nmap -O -sV -sC -oN Desktop/nmap-odoo.txt 172.16.1.51
+Nmap scan report for 172.16.1.51
+Host is up (0.00043s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 01:a7:c0:94:40:1b:bd:70:ae:dc:a9:88:74:22:88:be (ECDSA)
+|_  256 a3:45:61:50:6d:7b:03:0d:25:6a:0b:cd:b5:1f:51:1c (ED25519)
+80/tcp open  http    nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://odoo/web
+MAC Address: 08:00:27:4B:B7:03 (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.8
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Sep  8 19:35:06 2023 -- 1 IP address (1 host up) scanned in 17.58 seconds
