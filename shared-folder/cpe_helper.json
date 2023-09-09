@@ -269,8 +269,7 @@
             ]
         },
 
-"action": [ "replace_vendor", "replace_product" ]
-},
+
 	
         {
             "target": "windows",
