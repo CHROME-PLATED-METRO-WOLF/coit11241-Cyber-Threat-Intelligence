@@ -4,24 +4,216 @@
     "update_date": "2019-10-02T11:00Z",
     "dictionary": [
 	
-        { 
+	
+	{ 
             "target": "windows",
             "source": {
                 "vendor": [ 
-                    "INVENTORY_VENDOR" 
+                    "win.rar GmbH" 
 				],
                 "product": [ 
-                    "INVENTORY_NAME" 
+                    "WinRAR.*" 
 					]
                 },
                 "translation": {
                 "vendor": [ 
-                    "cpe_vendor" 
+                    "rarlab" 
 				],
                 "product": [ 
-                    "cpe_product" 
+                    "winrar" 
 				]
 },
+	
+	{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Psyonix" 
+				],
+                "product": [ 
+                    "Rocket League version .*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "psyonix" 
+				],
+                "product": [ 
+                    "rocket_league" 
+				]
+},
+	
+			{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Wazuh, Inc." 
+				],
+                "product": [ 
+                    "Wazuh Agent" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "" 
+				],
+                "product": [ 
+                    "" 
+				]
+},
+	
+		{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Dell" 
+				],
+                "product": [ 
+                    "Dell Wyse Management Suite version .*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "dell" 
+				],
+                "product": [ 
+                    "wyse_management_suite" 
+				]
+},
+	
+	{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Microsoft" 
+				],
+                "product": [ 
+                    "Access version .*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "microsoft" 
+				],
+                "product": [ 
+                    "access" 
+				]
+},
+	
+			{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Oracle and/or its affiliates" 
+				],
+                "product": [ 
+                    "Oracle VM VirtualBox Guest Additions .*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "" 
+				],
+                "product": [ 
+                    "" 
+				]
+},
+	
+			{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "SAP" 
+				],
+                "product": [ 
+                    "BusinessObjects BI version.*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "sap" 
+				],
+                "product": [ 
+                    "businessobjects" 
+				]
+},
+	
+			{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Microsoft Corporation" 
+				],
+                "product": [ 
+                    "Microsoft Edge" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "microsoft" 
+				],
+                "product": [ 
+                    "edge_chromium" 
+				]
+},
+	
+		{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Adobe" 
+				],
+                "product": [ 
+                    "Photoshop version.*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "adobe" 
+				],
+                "product": [ 
+                    "photoshop" 
+				]
+},
+	
+	{ 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Metabase" 
+				],
+                "product": [ 
+                    "Metabase version.*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "metabase" 
+				],
+                "product": [ 
+                    "metabase" 
+				]
+},
+
+        { 
+            "target": "windows",
+            "source": {
+                "vendor": [ 
+                    "Microsoft" 
+				],
+                "product": [ 
+                    "Office version.*" 
+					]
+                },
+                "translation": {
+                "vendor": [ 
+                    "microsoft" 
+				],
+                "product": [ 
+                    "office" 
+				]
+},
+
 "action": [ "replace_vendor", "replace_product" ]
 },
 	
